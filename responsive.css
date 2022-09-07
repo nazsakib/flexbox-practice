@@ -1,5 +1,39 @@
+/* for 940px */
 
 
+@media (max-width: 948px) {
+    .main__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main__section .section__list {
+        width: 30%;
+    }
+}
+
+/* for 768px */
+
+@media (max-width: 768px) {
+    .main__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main__section .section__list {
+        width: 33%;
+    }
+}
+
+/* for 340px */
+
+@media (max-width: 372px) {
+    .main__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main__section .section__list {
+        width: 95%;
+    }
+}
 
                         
 
